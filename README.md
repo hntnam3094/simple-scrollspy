@@ -1,1 +1,1 @@
-Hello đây là NPM Test
+Test create CLI Node js
