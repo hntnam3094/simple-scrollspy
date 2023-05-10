@@ -1,0 +1,30 @@
+{
+  "name": "simple-scrollspy",
+  "version": "1.0.1",
+  "description": "simple-scrollspy",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node ./node_modules/webpack/bin/webpack.js --mode production --watch --progress",
+    "build": "node ./node_modules/webpack/bin/webpack.js --mode production --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hntnam3094/simple-scrollspy.git"
+  },
+  "keywords": [
+    "ScrollSpy",
+    "Javascript",
+    "umd"
+  ],
+  "author": "Nam Thanh <hntnam98@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hntnam3094/simple-scrollspy/issues"
+  },
+  "homepage": "https://github.com/hntnam3094/simple-scrollspy#readme",
+  "devDependencies": {
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^5.82.0",
+    "webpack-cli": "^5.1.1"
+  }
+}
